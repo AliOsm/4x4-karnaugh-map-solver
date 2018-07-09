@@ -85,7 +85,7 @@ void input(int n, int indexes[16], int k_indexes[]) {
   contains only ones in it.
 
   Returns the coordinates of the first appeared rectangle if exist,
-  `(-1, -1)` otherwise.
+  `(oo, oo)` otherwise.
 */
 pair<int, int> check(int width, int length, int indexes[16], int k_indexes[], bool vis[4][4][5][5]) {
   for(int i = 0; i < 4; ++i)
